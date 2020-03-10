@@ -7,16 +7,16 @@
         var start = parseInt(prompt("Enter start: "));
         var end = parseInt(prompt("Enter end: "));
         var step = parseInt(prompt("Enter step: "));
-        if(isNaN(start)==true||(isNaN(end)==true||isNaN(step)==true)){ // CHECK FOR NOT A NUMBER
+        if(isNaN(start)==true||(isNaN(end)==true||isNaN(step)==true)){ 
             alert("Invalid integer input, please reload and try again");
         }
-        else if(step==0){ // CHECK IF STEP IS 0
+        else if(step==0){ 
             alert("Invalid integer input, please reload and try again");
         }
-        else if(start > end && step > 0){ // CHECK FOR STEP > 0 FOR START > END
+        else if(start > end && step > 0){ 
             alert("Invalid integer input, please reload and try again");
         }
-        else if(start < end && step < 0){ // CHECK FOR STEP < 0 FOR START < END
+        else if(start < end && step < 0){ 
             alert("Invalid integer input, please reload and try again");
         }
         else {
